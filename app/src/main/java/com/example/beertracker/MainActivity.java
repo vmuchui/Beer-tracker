@@ -14,14 +14,13 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     @BindView(R.id.addBeers)
     Button mAddBeers;
-
+    @BindView(R.id.findBreweries)
     Button mFindBreweries;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mFindBreweries = findViewById(R.id.findBreweries);
         mFindBreweries.setOnClickListener(this::onClick);
         ButterKnife.bind(this);
 
