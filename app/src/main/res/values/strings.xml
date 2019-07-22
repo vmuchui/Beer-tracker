@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Beer Tracker</string>
+    <string name="welcome_line"> Welcome to Beer Tracker</string>
+    <string name="continue_next"> Add Beer </string>
+    <string name="date_beer">Enter Date Consumed</string>
+    <string name="place_beer"> Place Where Consumed</string>
+    <string name="beer_name">Name Of Beer</string>
+    <string name="find_breweries">Find Breweries</string>
+    <string name="sorry_message">This feature will be available soon </string>
+    <string name="submit_beer">Add Beer</string>
 </resources>
