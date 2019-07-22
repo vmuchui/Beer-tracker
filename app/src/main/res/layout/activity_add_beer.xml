@@ -2,34 +2,48 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/beer"/>
     <EditText
         android:id="@+id/beerName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
+        android:layout_above="@id/date"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10sp"
+        android:background="@color/primaryLightColor"
         android:hint="@string/beer_name"/>
     <EditText
         android:id="@+id/date"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="date"
-        android:layout_below="@id/beerName"
+        android:layout_above="@id/place"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/primaryLightColor"
         android:hint="@string/date_beer"/>
     <EditText
         android:id="@+id/place"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/date"
+        android:layout_above="@id/submitBeer"
+        android:layout_marginBottom="60dp"
+        android:background="@color/primaryLightColor"
         android:hint="@string/place_beer"/>
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="@string/submit_beer"/>
+        android:text="@string/submit_beer"
+        android:id="@+id/submitBeer"/>
 
 </RelativeLayout>
