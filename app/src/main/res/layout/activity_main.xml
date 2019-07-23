@@ -13,13 +13,19 @@
         android:layout_marginRight="0dp"
         android:scaleType="centerCrop"
         android:src="@drawable/beers" />
+
     <TextView
+        android:id="@+id/mainTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/addBeers"
+        android:layout_marginLeft="14dp"
         android:layout_marginTop="56dp"
-        android:textSize="40sp"
+        android:layout_marginBottom="375dp"
+        android:text="@string/welcome_line"
         android:textColor="@color/colorAccent"
-        android:text="@string/welcome_line"/>
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/addBeers"
