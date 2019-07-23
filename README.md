@@ -32,7 +32,8 @@ This is a mobile application that helps you keep track of the beers you ever dra
 * Use android studio to open the cloned project.
 * Click on the run button (green play button on the status bar.)
 * Choose the Android Virtual Device to be used (or create one) or run on your android phone.
-
+## Bugs 
+* No bugs experienced as at yet. Incase of any please contact using the above infomation.
 
 ## License
 MIT License
