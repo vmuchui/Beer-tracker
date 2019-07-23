@@ -8,4 +8,5 @@
     <string name="find_breweries">Find Breweries</string>
     <string name="sorry_message">This feature will be available soon </string>
     <string name="submit_beer">Add Beer</string>
+    <string name="beers_taken">Beers Consumed</string>
 </resources>
